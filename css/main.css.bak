@@ -5344,7 +5344,7 @@ section.section.latest-part {
 
 .mobile-menu {
 	position: fixed;
-	bottom: 0px;
+	bottom: 30px;
 	left: 0px;
 	width: 100%;
 	z-index: 3;
