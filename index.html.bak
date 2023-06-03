@@ -91,6 +91,7 @@ function showPosition(position) {
                         <button class="header-user"><img src="images/user.png" alt="user" /></button><a href="index.html"><img src="images/logo.png" alt="logo" /></a><button class="header-src"><i class="fas fa-search"></i></button>
                     </div>
                     <a href="index.html" class="header-logo"><img src="images/logo.png" alt="logo" /></a>
+					<p>Your Location: <span id="location"></span></p>
 					<button onclick="getLocation()">Try It</button>
                     <form class="header-form">
                         <input type="text" placeholder="Search anything..." /><button><i class="fas fa-search"></i></button>
