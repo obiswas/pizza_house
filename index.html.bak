@@ -46,8 +46,8 @@ function getLocation() {
 }
 
 function showPosition(position) {
-  x.innerHTML = "Latitude: " + position.coords.latitude + 
-  "<br>Longitude: " + position.coords.longitude;
+  var latitude = position.coords.latitude;
+    var longitude = position.coords.longitude;
    $.ajax({
         type:'POST',
         url:'getLocation.php',
@@ -88,11 +88,12 @@ function showPosition(position) {
             <div class="container">
                 <div class="header-content">
                     <div class="header-media-group">
-                        <button class="header-user"><img src="images/user.png" alt="user" /></button><a href="index.html"><img src="images/logo.png" alt="logo" /></a><button class="header-src"><i class="fas fa-search"></i></button>
+                        <button class="header-widget1" title="Cartlist" onclick="getLocation()" style="color: white;">
+                           <i class="fa fa-map-marker" aria-hidden="true"></i><span id="location"></span></button><button class="header-src"><i class="fas fa-search"></i></button>
                     </div>
                     <a href="index.html" class="header-logo"><img src="images/logo.png" alt="logo" /></a>
-					<p>Your Location: <span id="location"></span></p>
-					<button onclick="getLocation()">Try It</button>
+					<button class="header-widget" title="Cartlist" onclick="getLocation()" style="color: white;">
+                           <i class="fa fa-map-marker" aria-hidden="true"></i><span id="location"></span></button>
                     <form class="header-form">
                         <input type="text" placeholder="Search anything..." /><button><i class="fas fa-search"></i></button>
                     </form>
@@ -359,7 +360,10 @@ function showPosition(position) {
         <div class="mobile-menu">
             <a href="index.html" title="Home Page"><i class="fas fa-home"></i><span>Home</span></a><button class="cate-btn" title="Category List"><i class="fas fa-list"></i><span>category</span></button>
             <button class="cart-btn" title="Cartlist"><i class="fas fa-shopping-basket"></i><span>cartlist</span><sup>9+</sup></button>
-            <a href="wishlist.html" title="Wishlist"><i class="fas fa-heart"></i><span>wishlist</span><sup>0</sup></a>
+            <!--a href="wishlist.html" title="Wishlist"><i class="fas fa-heart"></i><span>wishlist</span><sup>0</sup></a-->
+			<button class="cate-btn" fdprocessedid="tlubek"><i class="fas fa-user"></i>
+
+<span>user</span></button>
         </div>
         <div class="modal fade" id="product-view">
             <div class="modal-dialog">
