@@ -439,49 +439,7 @@ body {font-family: 'Poppins', sans-serif;}
             </div>
 			 
         </section> 
-		<section class="section latest-part" style="background: #fff;">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <div class="section-heading"><h2>Latest Offers</h2></div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <ul class="latest-offers slider-arrow">
-                            <li>
-								<div class="product-card">
-                            <div class="product-media">                                
-                                <a class="product-image" href="#"><img src="images/product/letest1.jpg" alt="product" /></a>                                
-                            </div>                            
-                        </div>
-							</li>
-							<li>
-								<div class="product-card">
-                            <div class="product-media">                                
-                                <a class="product-image" href="#"><img src="images/product/letest2.jpg" alt="product" /></a>                                
-                            </div>                            
-                        </div>
-							</li>
-							<li>
-								<div class="product-card">
-                            <div class="product-media">                                
-                                <a class="product-image" href="#"><img src="images/product/letest3.jpg" alt="product" /></a>                                
-                            </div>                            
-                        </div>
-							</li>
-							<li>
-								<div class="product-card">
-                            <div class="product-media">                                
-                                <a class="product-image" href="#"><img src="images/product/letest4.jpg" alt="product" /></a>                                
-                            </div>                            
-                        </div>
-							</li>
-						</ul>
-					</div>
-                </div>
-            </div>
-        </section>
+		
         
         <section class="section recent-part category-part">
             <div class="container">
@@ -615,6 +573,49 @@ body {font-family: 'Poppins', sans-serif;}
                             <a href="shop-4column.html" class="btn btn-outline"><i class="fas fa-eye"></i><span>show more</span></a>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+		<section class="section latest-part" style="background: #fff;">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="section-heading"><h2>Latest Offers</h2></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <ul class="latest-offers slider-arrow">
+                            <li>
+								<div class="product-card">
+                            <div class="product-media">                                
+                                <a class="product-image" href="#"><img src="images/product/letest1.jpg" alt="product" /></a>                                
+                            </div>                            
+                        </div>
+							</li>
+							<li>
+								<div class="product-card">
+                            <div class="product-media">                                
+                                <a class="product-image" href="#"><img src="images/product/letest2.jpg" alt="product" /></a>                                
+                            </div>                            
+                        </div>
+							</li>
+							<li>
+								<div class="product-card">
+                            <div class="product-media">                                
+                                <a class="product-image" href="#"><img src="images/product/letest3.jpg" alt="product" /></a>                                
+                            </div>                            
+                        </div>
+							</li>
+							<li>
+								<div class="product-card">
+                            <div class="product-media">                                
+                                <a class="product-image" href="#"><img src="images/product/letest4.jpg" alt="product" /></a>                                
+                            </div>                            
+                        </div>
+							</li>
+						</ul>
+					</div>
                 </div>
             </div>
         </section>
